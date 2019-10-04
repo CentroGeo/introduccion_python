@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>clase_1</title>
+<title>clase_1_pt1</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13077,7 +13077,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="An&#225;lisis-de-Datos-Geoespaciales-con-Programaci&#243;n">An&#225;lisis de Datos Geoespaciales con Programaci&#243;n<a class="anchor-link" href="#An&#225;lisis-de-Datos-Geoespaciales-con-Programaci&#243;n">&#182;</a></h1><h2 id="Unidad-II---Introducci&#243;n-a-la-Programaci&#243;n-y-Lenguaje-Python">Unidad II - Introducci&#243;n a la Programaci&#243;n y Lenguaje Python<a class="anchor-link" href="#Unidad-II---Introducci&#243;n-a-la-Programaci&#243;n-y-Lenguaje-Python">&#182;</a></h2><h3 id="Clase-No.-1">Clase No. 1<a class="anchor-link" href="#Clase-No.-1">&#182;</a></h3><h3 id="Entendiendo-Jupyter-Notebook">Entendiendo <code>Jupyter Notebook</code><a class="anchor-link" href="#Entendiendo-Jupyter-Notebook">&#182;</a></h3><p>La principal herramienta que se utilizará a lo largo del curso será el <a href="https://jupyter.org/"><em>Jupyter Notebook</em></a>, el cual es una forma eficiente de almacenar en un mismo archivo texto, líneas de código y resultados del mismo, el cual puede ser compartido, editado y modificado sencillamente. Podrían entenderse como el simil a un archivo de <em>Word</em>, pero enfocados a la programación.</p>
+<h1 id="An&#225;lisis-de-Datos-Geoespaciales-con-Programaci&#243;n">An&#225;lisis de Datos Geoespaciales con Programaci&#243;n<a class="anchor-link" href="#An&#225;lisis-de-Datos-Geoespaciales-con-Programaci&#243;n">&#182;</a></h1><h2 id="Unidad-II---Introducci&#243;n-a-la-Programaci&#243;n-y-Lenguaje-Python">Unidad II - Introducci&#243;n a la Programaci&#243;n y Lenguaje Python<a class="anchor-link" href="#Unidad-II---Introducci&#243;n-a-la-Programaci&#243;n-y-Lenguaje-Python">&#182;</a></h2><h3 id="Clase-No.-1---Parte-1">Clase No. 1 - Parte 1<a class="anchor-link" href="#Clase-No.-1---Parte-1">&#182;</a></h3><h3 id="Entendiendo-Jupyter-Notebook">Entendiendo <code>Jupyter Notebook</code><a class="anchor-link" href="#Entendiendo-Jupyter-Notebook">&#182;</a></h3><p>La principal herramienta que se utilizará a lo largo del curso será el <a href="https://jupyter.org/"><em>Jupyter Notebook</em></a>, el cual es una forma eficiente de almacenar en un mismo archivo texto, líneas de código y resultados del mismo, el cual puede ser compartido, editado y modificado sencillamente. Podrían entenderse como el simil a un archivo de <em>Word</em>, pero enfocados a la programación.</p>
 <h4 id="Creando-un-Jupyter-Notebook">Creando un <code>Jupyter Notebook</code><a class="anchor-link" href="#Creando-un-Jupyter-Notebook">&#182;</a></h4><p>Tal y como se estudió anteriormente, primero es necesario preparar a la computadora de trabajo para que tenga la capacidad de ejecutar código Python; así mismo, es conveniente tener a la mano el Sitema de Gestión de Paquetes <em>Conda</em>, pues a través de éste no sólo se instala la librería <code>jupyter</code>, necesaria para generar un <em>Notebook</em>, si no también puede crearse sencillamente un <em>Environment</em> que aisle el trabajo realizado, evitando posibles conflictos con otros proyectos. Lo anterior se logra sencillamente ejecutando los siguientes comandos a través de la Línea de Comandoas de <em>Conda</em>:</p>
 
 <pre><code>&gt; conda create -n 'nombre_environment'
@@ -13495,7 +13495,7 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
-<h4 id="Operadores-Matem&#225;ticos">Operadores Matem&#225;ticos<a class="anchor-link" href="#Operadores-Matem&#225;ticos">&#182;</a></h4><p>Al igual que con otros Lenguajes de Programación, <em>Python</em> se encuentra precargado con diversas operaciones matemáticas que, desde un principio, permiten utilizarlo como una calculadora básica. Los operadores matemáticos básicos en <em>Python</em> son:</p>
+<h3 id="Operadores-Matem&#225;ticos">Operadores Matem&#225;ticos<a class="anchor-link" href="#Operadores-Matem&#225;ticos">&#182;</a></h3><p>Al igual que con otros Lenguajes de Programación, <em>Python</em> se encuentra precargado con diversas operaciones matemáticas que, desde un principio, permiten utilizarlo como una calculadora básica. Los operadores matemáticos básicos en <em>Python</em> son:</p>
 
 </div>
 </div>
@@ -13642,8 +13642,9 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Potencia (**)</span>
-<span class="mi">5</span> <span class="o">**</span> <span class="mi">2</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># División tipo &#39;Floor&#39; (//)</span>
+<span class="c1"># Si el resultado es un decimal, automáticamente es redondeado al entero menor más cercano.</span>
+<span class="mi">10</span> <span class="o">//</span> <span class="mi">3</span>
 </pre></div>
 
     </div>
@@ -13662,7 +13663,7 @@ div#notebook {
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>25</pre>
+<pre>3</pre>
 </div>
 
 </div>
@@ -13674,6 +13675,40 @@ div#notebook {
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Potencia (**)</span>
+<span class="mi">5</span> <span class="o">**</span> <span class="mi">2</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[17]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>25</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Módulo (%)</span>
@@ -13691,7 +13726,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[17]:</div>
+    <div class="prompt output_prompt">Out[18]:</div>
 
 
 
@@ -13716,7 +13751,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Primero se realiza la multiplicación y después la suma, tal y como lo dicta la Jerarquía de Operaciones.</span>
@@ -13733,7 +13768,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[18]:</div>
+    <div class="prompt output_prompt">Out[19]:</div>
 
 
 
@@ -13758,7 +13793,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Gracias a la adición de los paréntesis, Python realiza la operación en un orden diferente.</span>
@@ -13775,7 +13810,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[19]:</div>
+    <div class="prompt output_prompt">Out[20]:</div>
 
 
 
@@ -13794,14 +13829,14 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
-<h4 id="Declaraci&#243;n-de-Variables">Declaraci&#243;n de Variables<a class="anchor-link" href="#Declaraci&#243;n-de-Variables">&#182;</a></h4><p>Una de las funciones más básicas de <em>Python</em> es la capacidad de asignarle un nombre en particular a diferentes "cosas", u objetos, mismmas que son llamadas como <em>Variables</em> al momento de escribir código. Esta asignación se realiza a través del signo igual <code>=</code> y, en esencia, casi cualquier nombre puede ser utilizado para asignar una variable. Por ejemplo:</p>
+<h3 id="Declaraci&#243;n-de-Variables">Declaraci&#243;n de Variables<a class="anchor-link" href="#Declaraci&#243;n-de-Variables">&#182;</a></h3><p>Una de las funciones más básicas de <em>Python</em> es la capacidad de asignarle un nombre en particular a diferentes "cosas", u objetos, mismmas que son llamadas como <em>Variables</em> al momento de escribir código. Esta asignación se realiza a través del signo igual <code>=</code> y, en esencia, casi cualquier nombre puede ser utilizado para asignar una variable. Por ejemplo:</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Asignación a través del signo &#39;=&#39;</span>
@@ -13823,7 +13858,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Escribir por si misma el nombre de una variable implica llamar a ésta</span>
@@ -13840,7 +13875,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[21]:</div>
+    <div class="prompt output_prompt">Out[22]:</div>
 
 
 
@@ -13865,7 +13900,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># En este caso, se está asignando un nuevo valor a la Variable &#39;a&#39;</span>
@@ -13883,7 +13918,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[22]:</div>
+    <div class="prompt output_prompt">Out[23]:</div>
 
 
 
@@ -13908,7 +13943,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Ahora &#39;a&#39; será igual a una Cadena de Texto, y Python habrá olvidado que en algún momento fue un Número Entero</span>
@@ -13926,7 +13961,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[23]:</div>
+    <div class="prompt output_prompt">Out[24]:</div>
 
 
 
@@ -13951,7 +13986,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pastel</span> <span class="o">=</span> <span class="mi">5</span>
@@ -13972,7 +14007,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cereza</span> <span class="o">=</span> <span class="p">(((</span><span class="mi">5</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="mi">9</span> <span class="o">-</span> <span class="mi">3</span><span class="p">))</span> <span class="o">/</span> <span class="mi">3</span> <span class="p">)</span> <span class="o">**</span> <span class="mi">2</span>
@@ -13989,7 +14024,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[25]:</div>
+    <div class="prompt output_prompt">Out[26]:</div>
 
 
 
@@ -14014,7 +14049,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pastel</span> <span class="o">*</span> <span class="n">cereza</span>
@@ -14030,7 +14065,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[26]:</div>
+    <div class="prompt output_prompt">Out[27]:</div>
 
 
 
@@ -14058,7 +14093,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Definiendo a la variable &#39;lista_1&#39; una lista de los números del 1 al 5</span>
@@ -14076,7 +14111,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[27]:</div>
+    <div class="prompt output_prompt">Out[28]:</div>
 
 
 
@@ -14101,7 +14136,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lista_2</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span> <span class="p">,</span> <span class="s1">&#39;a&#39;</span> <span class="p">,</span> <span class="mf">4.25</span> <span class="p">,</span> <span class="kc">None</span> <span class="p">,</span> <span class="kc">False</span><span class="p">]</span>
@@ -14118,7 +14153,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[28]:</div>
+    <div class="prompt output_prompt">Out[29]:</div>
 
 
 
@@ -14145,7 +14180,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Definiendo a la variable &#39;tupla_1&#39; una tupla de los números del 1 al 5</span>
@@ -14163,7 +14198,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[29]:</div>
+    <div class="prompt output_prompt">Out[30]:</div>
 
 
 
@@ -14188,7 +14223,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tupla_2</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span> <span class="p">,</span> <span class="s1">&#39;a&#39;</span> <span class="p">,</span> <span class="mf">4.25</span> <span class="p">,</span> <span class="kc">None</span> <span class="p">,</span> <span class="kc">False</span><span class="p">)</span>
@@ -14205,7 +14240,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[30]:</div>
+    <div class="prompt output_prompt">Out[31]:</div>
 
 
 
@@ -14231,7 +14266,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Definiendo a la variable &#39;diccionario_1&#39; un diccinoario con diversas llaves y valores</span>
@@ -14249,7 +14284,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[31]:</div>
+    <div class="prompt output_prompt">Out[32]:</div>
 
 
 
@@ -14274,7 +14309,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Se está llamando una sola parte del diccionario, y no todo éste</span>
@@ -14291,7 +14326,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[32]:</div>
+    <div class="prompt output_prompt">Out[33]:</div>
 
 
 
@@ -14316,7 +14351,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">diccionario_1</span><span class="p">[</span><span class="s1">&#39;edad&#39;</span><span class="p">]</span>
@@ -14332,7 +14367,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[33]:</div>
+    <div class="prompt output_prompt">Out[34]:</div>
 
 
 
@@ -14357,7 +14392,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Definiendo a la variable &#39;edades&#39; un diccionario del tipo nombre:edad</span>
@@ -14375,7 +14410,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[34]:</div>
+    <div class="prompt output_prompt">Out[35]:</div>
 
 
 
@@ -14405,7 +14440,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">calificaciones</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Pepe&#39;</span><span class="p">:</span><span class="mi">8</span> <span class="p">,</span> <span class="s1">&#39;Ramona&#39;</span><span class="p">:</span><span class="mi">7</span> <span class="p">,</span> <span class="s1">&#39;Nicolasio&#39;</span><span class="p">:</span><span class="mi">6</span> <span class="p">,</span> <span class="s1">&#39;Tulia&#39;</span><span class="p">:</span><span class="mi">6</span> <span class="p">,</span> <span class="s1">&#39;Isidoro&#39;</span><span class="p">:</span><span class="mi">7</span> <span class="p">,</span> <span class="s1">&#39;Julia&#39;</span><span class="p">:</span><span class="mi">8</span><span class="p">}</span>
@@ -14422,7 +14457,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[35]:</div>
+    <div class="prompt output_prompt">Out[36]:</div>
 
 
 
@@ -14447,7 +14482,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">set</span><span class="p">(</span><span class="n">lista_1</span><span class="p">)</span>
@@ -14463,7 +14498,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[36]:</div>
+    <div class="prompt output_prompt">Out[37]:</div>
 
 
 
@@ -14489,7 +14524,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[38]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Creación de una Tupla</span>
@@ -14509,7 +14544,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[37]:</div>
+    <div class="prompt output_prompt">Out[38]:</div>
 
 
 
@@ -14536,7 +14571,7 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
-<h4 id="Trabajando-con-Estructuras-de-Datos">Trabajando con Estructuras de Datos<a class="anchor-link" href="#Trabajando-con-Estructuras-de-Datos">&#182;</a></h4><p>Las Estructuras de Datos poseen múltiples conceptos particulares que permiten manipularlas y utilizarlas dinámicamente al momento de escribir código; todos éstos se traducen en técnicas y estándares de <em>Python</em> que son de utilidad para manipular los datos.</p>
+<h3 id="Trabajando-con-Estructuras-de-Datos">Trabajando con Estructuras de Datos<a class="anchor-link" href="#Trabajando-con-Estructuras-de-Datos">&#182;</a></h3><p>Las Estructuras de Datos poseen múltiples conceptos particulares que permiten manipularlas y utilizarlas dinámicamente al momento de escribir código; todos éstos se traducen en técnicas y estándares de <em>Python</em> que son de utilidad para manipular los datos.</p>
 <h5 id="Indexaci&#243;n-(Indexing)">Indexaci&#243;n (Indexing)<a class="anchor-link" href="#Indexaci&#243;n-(Indexing)">&#182;</a></h5><p>Todos los elementos dentro de una Estructura de Datos poseen, por definición, un <em>Índice</em>, es decir, una posición dentro del grupo. Recordando la variable <code>lista_1</code> creada anteriormente:</p>
 
 </div>
@@ -14544,7 +14579,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lista_1</span>
@@ -14560,7 +14595,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[38]:</div>
+    <div class="prompt output_prompt">Out[39]:</div>
 
 
 
@@ -14585,7 +14620,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lista_1</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
@@ -14601,7 +14636,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[39]:</div>
+    <div class="prompt output_prompt">Out[40]:</div>
 
 
 
@@ -14627,7 +14662,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tupla_1</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
@@ -14643,7 +14678,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[40]:</div>
+    <div class="prompt output_prompt">Out[41]:</div>
 
 
 
@@ -14668,7 +14703,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[42]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">diccionario_1</span><span class="p">[</span><span class="s1">&#39;nombre&#39;</span><span class="p">]</span>
@@ -14684,7 +14719,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[41]:</div>
+    <div class="prompt output_prompt">Out[42]:</div>
 
 
 
@@ -14709,51 +14744,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">lista_1</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">:</span><span class="mi">1</span><span class="p">]</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[42]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>[1, 2, 3]</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>En la mayoría de los casos, no es necesario especificar el número de saltos, pues <em>Python</em> automáticamente entenderá que debe obtener los elementos de forma secuencial cuando no se encuentre establecido. Como tal, el resultado anterior también puede ser obtenido utilizando:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
 <div class="prompt input_prompt">In&nbsp;[43]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">lista_1</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">lista_1</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">:</span><span class="mi">1</span><span class="p">]</span>
 </pre></div>
 
     </div>
@@ -14784,7 +14778,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Por conveniencia, los saltos únicamente se determinan si así lo requiere el subconjunto deseado; por ejemplo, si se desease obtener del primer al quinto elemento de <code>tupla_1</code>, dando un salto a cada segundo elemento, se tendría que:</p>
+<p>En la mayoría de los casos, no es necesario especificar el número de saltos, pues <em>Python</em> automáticamente entenderá que debe obtener los elementos de forma secuencial cuando no se encuentre establecido. Como tal, el resultado anterior también puede ser obtenido utilizando:</p>
 
 </div>
 </div>
@@ -14792,6 +14786,47 @@ div#notebook {
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">lista_1</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[44]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[1, 2, 3]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Por conveniencia, los saltos únicamente se determinan si así lo requiere el subconjunto deseado; por ejemplo, si se desease obtener del primer al quinto elemento de <code>tupla_1</code>, dando un salto a cada segundo elemento, se tendría que:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[45]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tupla_1</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">:</span><span class="mi">2</span><span class="p">]</span>
@@ -14807,7 +14842,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[44]:</div>
+    <div class="prompt output_prompt">Out[45]:</div>
 
 
 
@@ -14832,7 +14867,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[46]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lista_a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span> <span class="p">,</span> <span class="mi">2</span> <span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
@@ -14851,7 +14886,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[45]:</div>
+    <div class="prompt output_prompt">Out[46]:</div>
 
 
 
@@ -14876,7 +14911,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[46]:</div>
+<div class="prompt input_prompt">In&nbsp;[47]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tupla_a</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span> <span class="p">,</span> <span class="mi">3</span> <span class="p">,</span> <span class="mi">4</span> <span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
@@ -14895,7 +14930,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[46]:</div>
+    <div class="prompt output_prompt">Out[47]:</div>
 
 
 
@@ -14920,7 +14955,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[48]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lista_1</span> <span class="o">*</span> <span class="mi">3</span>
@@ -14936,7 +14971,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[47]:</div>
+    <div class="prompt output_prompt">Out[48]:</div>
 
 
 
@@ -14961,7 +14996,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[49]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="mi">3</span> <span class="ow">in</span> <span class="n">lista_1</span>
@@ -14977,7 +15012,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[48]:</div>
+    <div class="prompt output_prompt">Out[49]:</div>
 
 
 
@@ -15002,7 +15037,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[49]:</div>
+<div class="prompt input_prompt">In&nbsp;[50]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="mi">6</span> <span class="ow">in</span> <span class="nb">set</span><span class="p">(</span><span class="n">tupla_1</span><span class="p">)</span>
@@ -15018,13 +15053,183 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[49]:</div>
+    <div class="prompt output_prompt">Out[50]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
 <pre>False</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h5 id="Modificaci&#243;n-y-Adici&#243;n-de-Elementos">Modificaci&#243;n y Adici&#243;n de Elementos<a class="anchor-link" href="#Modificaci&#243;n-y-Adici&#243;n-de-Elementos">&#182;</a></h5><p>A través de los conceptos estudiados anteriormente, es posible modificar rápidamente cualquiera de los elementos que se encuentran dentro de una Estructura de Datos. Por ejemplo, para la <code>lista_1</code>, si se quisiera modificar el primer elemento y cambiarlo por una Cadena de Texto, únicamente se necesita utilizar su índice y el signo igual <code>=</code> para la asignación de variables.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">lista_1</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;a&#39;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Como tal, de ahora en adelante, el primer elemento de <code>lista_1</code> será el nuevo elemento colocado, olvidándose <em>Python</em> completamente de que en algún momento existió el Número Entero:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">lista_1</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[52]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[&#39;a&#39;, 2, 3, 4, 5]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Anteriormente se mencionó que la diferencia principal entre una <em>Lista</em> y una <em>Tupla</em> radicaba en el hecho de que la primera puede ser modificada, mientras que la segunda no. Como tal, si se intentase aplicar la misma lógica para  una tupla (<em>e.g.</em> <code>tupla_1[0] = 'a'</code>), <em>Python</em> mostraría un error especificando que el objeto no puede ser modificado.</p>
+<p>Por otra parte, en el caso de los <em>Diccionarios</em>, también es posible modificar el <em>valor</em> al cual se encuentra asociado una <em>llave</em>. En el ejemplo anterior, para <code>diccionario_1</code> el <em>valor</em> asociado a la <em>llave</em> <code>nombre</code> era <code>'Evaristo'</code>; sin embargo, éste puede ser modificado sencillamente siguiendo la misma lógica que con las listas:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">diccionario_1</span><span class="p">[</span><span class="s1">&#39;nombre&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Isidoro&#39;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>De ahora en adelante, el <em>valor</em> asociado a la <em>llave</em> <code>nombre</code> será el que acaba de ser definido:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">diccionario_1</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[54]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;nombre&#39;: &#39;Isidoro&#39;, &#39;apellido&#39;: &#39;Montenegro&#39;, &#39;edad&#39;: 56}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Una particularidad de los <em>Diccionarios</em> es que, a través de esta técnica, también es posible añadir nuevos pares de <em>llaves</em> y <em>valores</em>, siendo estos añadidos automáticamente al diccionario:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[55]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">diccionario_1</span><span class="p">[</span><span class="s1">&#39;nacionalidad&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Mexicano&#39;</span>
+<span class="n">diccionario_1</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[55]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;nombre&#39;: &#39;Isidoro&#39;,
+ &#39;apellido&#39;: &#39;Montenegro&#39;,
+ &#39;edad&#39;: 56,
+ &#39;nacionalidad&#39;: &#39;Mexicano&#39;}</pre>
 </div>
 
 </div>
@@ -15044,7 +15249,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[50]:</div>
+<div class="prompt input_prompt">In&nbsp;[56]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Definición de la variable &#39;string_1&#39; con la Cadena de Texto &#39;México&#39;</span>
@@ -15066,7 +15271,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="prompt input_prompt">In&nbsp;[57]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Obtención de &#39;set()&#39;</span>
@@ -15083,7 +15288,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[51]:</div>
+    <div class="prompt output_prompt">Out[57]:</div>
 
 
 
@@ -15100,7 +15305,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="prompt input_prompt">In&nbsp;[58]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Indexing</span>
@@ -15117,7 +15322,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[52]:</div>
+    <div class="prompt output_prompt">Out[58]:</div>
 
 
 
@@ -15134,7 +15339,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="prompt input_prompt">In&nbsp;[59]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Slicing</span>
@@ -15151,7 +15356,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[53]:</div>
+    <div class="prompt output_prompt">Out[59]:</div>
 
 
 
@@ -15168,7 +15373,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[60]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">string_2</span> <span class="o">=</span> <span class="s1">&#39;Mágico&#39;</span>
@@ -15187,7 +15392,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[54]:</div>
+    <div class="prompt output_prompt">Out[60]:</div>
 
 
 
@@ -15204,7 +15409,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[55]:</div>
+<div class="prompt input_prompt">In&nbsp;[61]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Multiplication</span>
@@ -15221,7 +15426,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[55]:</div>
+    <div class="prompt output_prompt">Out[61]:</div>
 
 
 
@@ -15238,7 +15443,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[56]:</div>
+<div class="prompt input_prompt">In&nbsp;[62]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Membership</span>
@@ -15255,7 +15460,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[56]:</div>
+    <div class="prompt output_prompt">Out[62]:</div>
 
 
 
@@ -15280,7 +15485,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[57]:</div>
+<div class="prompt input_prompt">In&nbsp;[63]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="s1">&#39;m&#39;</span> <span class="ow">in</span> <span class="n">string_1</span>
@@ -15296,7 +15501,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[57]:</div>
+    <div class="prompt output_prompt">Out[63]:</div>
 
 
 
@@ -15307,335 +15512,6 @@ div#notebook {
 
 </div>
 
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<hr>
-<h3 id="Control-de-Flujo---if-y-for">Control de Flujo - <code>if</code> y <code>for</code><a class="anchor-link" href="#Control-de-Flujo---if-y-for">&#182;</a></h3><p>Tanto en <em>Python</em>, como en otros Lenguajes de Programación, existen dos bloques fundamentales para la estructuración de cualquier tipo de código: las declaraciones realizadas a través de <code>if</code> (Sí...) y los bucles o procesos dictados por <code>for</code> (Para...). Aunque en este curso en particular no serán utilizados en gran extensión, conocerlos resulta importante pues, además de ser la base de muchas de las librerías que se utilizarán, también facilitan el aprendizaje de otros Lenguajes de Programación, así como pueden ser utilizadas para añadir cierta funcionalidad adicional a los métodos estudiados.</p>
-<h4 id="Declaraciones-con-if">Declaraciones con <code>if</code><a class="anchor-link" href="#Declaraciones-con-if">&#182;</a></h4><p>Tal y como su nombre lo indica, la función de <code>if</code> (Sí...) es restringir la ejecución de ciertas acciones dentro del código, permitiendo que se realicen sí, y sólo sí, se cumple una condición en particular, la cual es establecida por el programador. Para ejemplificar su función, se utilizarán las siguientes listas:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[58]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">lista_1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span> <span class="p">,</span> <span class="mi">2</span> <span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
-<span class="n">lista_2</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span> <span class="p">,</span> <span class="mi">5</span> <span class="p">,</span> <span class="mi">6</span><span class="p">]</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>En la siguiente celda se establece que, si en <code>lista_1</code> existe el Número Entero <code>3</code>, entonces se permitirá que aparezca un mensaje:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[59]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="mi">3</span> <span class="ow">in</span> <span class="n">lista_1</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;¡El número existe dentro de la lista!&#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>¡El número existe dentro de la lista!
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>La función que hace al mensaje aparecer es <code>print()</code>, y simplemente arroja como mensaje lo que se coloque entre sus paréntesis. La condición se encuentra establecida por <code>3 in lista_1</code>; en la sección anterior se observó que este comando, por si mismo, arroja un <em>Booleano</em> que puede ser <code>True</code> o <code>False</code> y, dado que en este caso el resultado sería <code>True</code>, entonces <em>Python</em> ejecuta lo que encuentra inmediatamente después. Pero, ¿qué ocurre si se coloca la <code>lista_2</code>?</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[60]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="mi">3</span> <span class="ow">in</span> <span class="n">lista_2</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;¡El número existe dentro de la lista!&#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Ahora no existe resultado alguno; dado que en <code>lista_2</code> no existe el Número Entero <code>3</code>, la condición de ejeción nos arroja <code>False</code> y, por ende, <em>Python</em> no ejecuta lo que se encuentra después del <code>if</code>.</p>
-<p>Es fácil distinguir el código que se encuentra condicionado por el <code>if</code> gracias a que, en <em>Python</em>, éste se encuentra <em>Indentado</em>, es decir, posee una ligera separación del lateral de la celda; si éste no se encontrase indentado, <em>Python</em> automáticamente detectaría un error. También es importante notar los dos puntos <code>:</code> colocados después de la condición de ejecución. Para añadir código que no se encuentre condicionado, simplemente basta con escribirlo sin la indentación correspondiente:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[61]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="mi">3</span> <span class="ow">in</span> <span class="n">lista_2</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;¡El número existe dentro de la lista!&#39;</span><span class="p">)</span>
-    
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Esta oración se encuentra fuera del if&#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Esta oración se encuentra fuera del if
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Comúnmente, <code>if</code> se encuentra acompañado por <code>else</code>, que funciona de forma similar pero únicamente le dice a <em>Python</em> cuál es el código que debe de ejecutar en caso de que la condición ejecutora original no sea cumplida. El ejemplo anterior puede ser complementado a través de la adición de <code>else</code>:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[62]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="mi">3</span> <span class="ow">in</span> <span class="n">lista_2</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;¡El número existe dentro de la lista!&#39;</span><span class="p">)</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;El número no existe dentro de la lista...&#39;</span><span class="p">)</span>
-    
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Esta oración se encuentra fuera del if&#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>El número no existe dentro de la lista...
-Esta oración se encuentra fuera del if
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Nótese que <code>else</code> también requiere de los dos puntos <code>:</code> para saber cuál es el código que deberá de ejecutar, así como de una identación similar a la de <code>if</code> para envolver el código que le corresponde. También es importante notar que la adición de <code>else</code> no es obligatoria; en celdas anteriores, el código se ejecutó perfectamente sin la adición de éste, pues únicamente funciona como complemento para el <code>if</code>. Si aplicásemos este mismo código con la <code>lista_1</code>:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[63]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="mi">3</span> <span class="ow">in</span> <span class="n">lista_1</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;¡El número existe dentro de la lista!&#39;</span><span class="p">)</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;El número no existe dentro de la lista...&#39;</span><span class="p">)</span>
-    
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Esta oración se encuentra fuera del if&#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>¡El número existe dentro de la lista!
-Esta oración se encuentra fuera del if
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>En este caso, <em>Python</em> ignoró completamente lo que se encuentra contenido por <code>else</code> debido a que la condición inicial de <code>if</code> fue cumplida satisfactoriamente, demostrando así la característica de complementareidad de <code>else</code>.</p>
-<p>Existe un tercer acompañante a <code>if</code>, llamado <code>elif</code>, utilizado en caso de que la condición ejecutora original no fuese cumplida, pero resulta de utilidad utilizar una segunda condición para comprobar algún detalle. Por ejemplo, en el siguiente código se verifica la existencia de un número en las dos listas creadas anteriormente:</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[64]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="mi">4</span> <span class="ow">in</span> <span class="n">lista_1</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;¡El número existe en la primera lista!&#39;</span><span class="p">)</span>
-<span class="k">elif</span> <span class="mi">4</span> <span class="ow">in</span> <span class="n">lista_2</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;¡El número existe en la segunda lista!&#39;</span><span class="p">)</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;El número no existe en ninguna de las listas...&#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>¡El número existe en la segunda lista!
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>En el ejemplo anterior, la condición colocada al <code>if</code> original, <code>4 in lista_1</code>, no fue cumplida, pero <code>4 in lista_2</code>, establecida inmediatamente después a través de <code>elif</code> sí se cumple, por lo que <em>Python</em> ejecuta lo que la identación le determine realizar. ¿Qué ocurriría si se intenta buscar un número no existente en ninguna de las dos listas?</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[65]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="mi">10</span> <span class="ow">in</span> <span class="n">lista_1</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;¡El número existe en la primera lista!&#39;</span><span class="p">)</span>
-<span class="k">elif</span> <span class="mi">10</span> <span class="ow">in</span> <span class="n">lista_2</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;¡El número existe en la segunda lista!&#39;</span><span class="p">)</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;El número no existe en ninguna de las listas...&#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>El número no existe en ninguna de las listas...
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Dado que el Número Entero <code>10</code> no existe en ninguna de las listas, <em>Python</em> ejecuta lo marcado por <code>else</code>; puede observarse entonces que <code>if</code> y sus complementos funcionan de forma secuencial, revisando condición por condición hasta que alguna sea cumplida o, si ninguna lo hace, ejecutar lo contenido por <code>else</code>, en caso de que exista. Este método ofrece la ventaja de que pueden añadirse tantos <code>elif</code> (y por ende, condiciones) como sean necesarias comprobar.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-    </div>
 </div>
 </div>
 
